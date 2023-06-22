@@ -19,7 +19,7 @@ export default {
         bg3: "#DDD",
       },
       fontFamily: {
-        Tesla: ["TESLA", "sans-serif"],
+        Tesla: ["TESLA"],
         Robotto: ["Roboto"],
         Work_Sans: ["Work Sans", "sans-serif"],
       },
