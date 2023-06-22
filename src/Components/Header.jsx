@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="py-3 w-full absolute top-0">
       <nav className="container flex justify-between items-center">
-        <a href="" className="font-Tesla text-3xl uppercase">
+        <a href="" className="font-Tesla text-3xl uppercase header-logo">
           tesla ai
         </a>
 

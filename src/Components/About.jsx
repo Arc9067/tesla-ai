@@ -5,7 +5,12 @@ import Pattern from "../assets/aboutpattern.png";
 const About = () => {
   return (
     <section className="py-[50px] w-full bg-bg2 text-black relative">
-      <img src={Pattern} alt="" className="absolute right-0 w-[7rem]" />
+      <img
+        src={Pattern}
+        alt=""
+        className="absolute right-0 w-[7rem]"
+        data-aos="fade-up"
+      />
       <div className="container grid lg:grid-cols-2 gap-10 gap-x-24 justify-between items-center z-10">
         <img src={car1} alt="" />
         <article className="flex flex-col gap-6">
