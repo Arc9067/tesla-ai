@@ -1,10 +1,15 @@
-@import url("https://fonts.cdnfonts.com/css/tesla");
+/* @import url("https://fonts.cdnfonts.com/css/tesla"); */
 @import url("https://fonts.cdnfonts.com/css/roboto");
 @import url("https://fonts.cdnfonts.com/css/work-sans");
 
 @tailwind components;
 @tailwind utilities;
 @tailwind base;
+
+@font-face {
+  font-family: Tesla;
+  src: url(./assets/Fonts/TESLA.woff);
+}
 
 @layer {
   .btn-shadow {
@@ -16,7 +21,7 @@
       url(./assets/hero-pattern.svg) center center no-repeat;
     background-size: cover;
   }
-  img{
-    @apply mx-auto
+  img {
+    @apply mx-auto;
   }
 }
