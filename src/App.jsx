@@ -17,11 +17,12 @@ const App = () => {
   const main = useRef(null);
 
   useEffect(() => {
+    AOS.init();
+    
     document
       .querySelectorAll("img")
       .forEach((ele) => [ele.setAttribute("loading", "lazy")]);
 
-    AOS.init();
   }, []);
 
   useLayoutEffect(() => {
